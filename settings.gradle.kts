@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "OCIconPackTemplate"
+rootProject.name = "OCSignalWifiPack"
 include(":app")
  
