@@ -12,8 +12,555 @@
             android:value="Luigi (DHD2280)" /> <!-- Author of the icon pack -->
 
         <!-- START OF ICON PACKS -->
+    <activity android:name="odin_signal"
+        android:label="Odin Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
 
-        <!-- END OF ICON PACKS -->
+    <activity android:name="daun_signal"
+        android:label="Daun Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="wing_signal"
+        android:label="Wing Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="butterfly_signal"
+        android:label="Butterfly Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="scroll_signal"
+        android:label="Scroll Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="round_signal"
+        android:label="Round Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="pui_signal"
+        android:label="PUI Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="pills_signal"
+        android:label="Pills Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="zigzag_wifi"
+        android:label="ZigZag WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="stroke_wifi"
+        android:label="Stroke WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="bars_signal"
+        android:label="Bars Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="dora_wifi"
+        android:label="Dora WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="equal_signal"
+        android:label="Equal Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="round_wifi"
+        android:label="Round WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="borderline_wifi"
+        android:label="Borderline WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="hos_signal"
+        android:label="HOS Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="plumpy_wifi"
+        android:label="Plumpy WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="deep_signal"
+        android:label="Deep Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="weed_wifi"
+        android:label="Weed WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="gradicon_wifi"
+        android:label="Gradicon WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="stack_signal"
+        android:label="Stack Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="wavy_signal"
+        android:label="Wavy Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="inside_wifi"
+        android:label="Inside WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="bars_wifi"
+        android:label="Bars WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="wavy_wifi"
+        android:label="Wavy WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="nothing_dot_v2_signal"
+        android:label="Nothing Dot V2 Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="wannui_signal"
+        android:label="Wannui Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="circle_signal"
+        android:label="Circle Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="dec_signal"
+        android:label="Dec Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="fan_signal"
+        android:label="Fan Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="aurora_wifi"
+        android:label="Aurora WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="rel_signal"
+        android:label="Rel Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="ios_double_by_______"
+        android:label="iOS double by 买啤酒也用券"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="zigzag_signal"
+        android:label="ZigZag Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="stroke_signal"
+        android:label="Stroke Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="sneaky_signal"
+        android:label="Sneaky Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="windows_signal"
+        android:label="Windows Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="forlorn_signal"
+        android:label="Forlorn Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="mini_signal"
+        android:label="Mini Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="nothing_dot_signal"
+        android:label="Nothing Dot Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="pui_wifi"
+        android:label="PUI WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="gradicon_signal"
+        android:label="Gradicon Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="roman_signal"
+        android:label="Roman Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="hos_wifi"
+        android:label="HOS WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="ios_by_______"
+        android:label="iOS by 买啤酒也用券"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="inside_signal"
+        android:label="Inside Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="ios_signal"
+        android:label="iOS Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="aquarium_signal"
+        android:label="Aquarium Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="forlorn_wifi"
+        android:label="Forlorn WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="xperia_signal"
+        android:label="Xperia Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="sea_signal"
+        android:label="Sea Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="ios_10_signal"
+        android:label="iOS 10 Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="faint_ui_signal"
+        android:label="Faint UI Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="sneaky_wifi"
+        android:label="Sneaky WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="plumpy_signal"
+        android:label="Plumpy Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="faint_ui_wifi"
+        android:label="Faint UI WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="nothing_dot_wifi"
+        android:label="Nothing Dot WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="xperia_wifi"
+        android:label="Xperia WiFi"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="dora_signal"
+        android:label="Dora Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="huawei_signal"
+        android:label="Huawei Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name="aurora_signal"
+        android:label="Aurora Signal"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="it.dhd.oxygencustomizer.iconpack" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+<!-- END OF ICON PACKS -->
     </application>
 
 </manifest>

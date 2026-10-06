@@ -1,3 +1,1380 @@
 <resources>
+<string-array name="odin_signal">
+    <item>mapping_source_odin_signal</item>
+    <item>replacement_odin_signal</item>
+</string-array>
 
+<string-array name="mapping_source_odin_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_odin_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_odin_signal</item>
+    <item>stat_signal_noservice_lte_systemui_odin_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_odin_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_odin_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_odin_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_odin_signal</item>
+</string-array>
+
+<string-array name="daun_signal">
+    <item>mapping_source_daun_signal</item>
+    <item>replacement_daun_signal</item>
+</string-array>
+
+<string-array name="mapping_source_daun_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_daun_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_daun_signal</item>
+    <item>stat_signal_noservice_lte_systemui_daun_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_daun_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_daun_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_daun_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_daun_signal</item>
+</string-array>
+
+<string-array name="wing_signal">
+    <item>mapping_source_wing_signal</item>
+    <item>replacement_wing_signal</item>
+</string-array>
+
+<string-array name="mapping_source_wing_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_wing_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_wing_signal</item>
+    <item>stat_signal_noservice_lte_systemui_wing_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_wing_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_wing_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_wing_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_wing_signal</item>
+</string-array>
+
+<string-array name="butterfly_signal">
+    <item>mapping_source_butterfly_signal</item>
+    <item>replacement_butterfly_signal</item>
+</string-array>
+
+<string-array name="mapping_source_butterfly_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_butterfly_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_butterfly_signal</item>
+    <item>stat_signal_noservice_lte_systemui_butterfly_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_butterfly_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_butterfly_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_butterfly_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_butterfly_signal</item>
+</string-array>
+
+<string-array name="scroll_signal">
+    <item>mapping_source_scroll_signal</item>
+    <item>replacement_scroll_signal</item>
+</string-array>
+
+<string-array name="mapping_source_scroll_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_scroll_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_scroll_signal</item>
+    <item>stat_signal_noservice_lte_systemui_scroll_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_scroll_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_scroll_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_scroll_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_scroll_signal</item>
+</string-array>
+
+<string-array name="round_signal">
+    <item>mapping_source_round_signal</item>
+    <item>replacement_round_signal</item>
+</string-array>
+
+<string-array name="mapping_source_round_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_round_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_round_signal</item>
+    <item>stat_signal_noservice_lte_systemui_round_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_round_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_round_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_round_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_round_signal</item>
+</string-array>
+
+<string-array name="pui_signal">
+    <item>mapping_source_pui_signal</item>
+    <item>replacement_pui_signal</item>
+</string-array>
+
+<string-array name="mapping_source_pui_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_pui_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_pui_signal</item>
+    <item>stat_signal_noservice_lte_systemui_pui_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_pui_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_pui_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_pui_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_pui_signal</item>
+</string-array>
+
+<string-array name="pills_signal">
+    <item>mapping_source_pills_signal</item>
+    <item>replacement_pills_signal</item>
+</string-array>
+
+<string-array name="mapping_source_pills_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_pills_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_pills_signal</item>
+    <item>stat_signal_noservice_lte_systemui_pills_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_pills_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_pills_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_pills_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_pills_signal</item>
+</string-array>
+
+<string-array name="zigzag_wifi">
+    <item>mapping_source_zigzag_wifi</item>
+    <item>replacement_zigzag_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_zigzag_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_zigzag_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_zigzag_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_zigzag_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_zigzag_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_zigzag_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_zigzag_wifi</item>
+</string-array>
+
+<string-array name="stroke_wifi">
+    <item>mapping_source_stroke_wifi</item>
+    <item>replacement_stroke_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_stroke_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_stroke_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_stroke_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_stroke_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_stroke_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_stroke_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_stroke_wifi</item>
+</string-array>
+
+<string-array name="bars_signal">
+    <item>mapping_source_bars_signal</item>
+    <item>replacement_bars_signal</item>
+</string-array>
+
+<string-array name="mapping_source_bars_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_bars_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_bars_signal</item>
+    <item>stat_signal_noservice_lte_systemui_bars_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_bars_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_bars_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_bars_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_bars_signal</item>
+</string-array>
+
+<string-array name="dora_wifi">
+    <item>mapping_source_dora_wifi</item>
+    <item>replacement_dora_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_dora_wifi">
+    <item>com.android.systemui:ic_signal_wifi_transient_animation</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:ic_signal_wifi_transient_animation_drawable</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_dora_wifi">
+    <item>ic_signal_wifi_transient_animation_systemui_dora_wifi</item>
+    <item>stat_signal_wifi_signal_4_systemui_dora_wifi</item>
+    <item>ic_signal_wifi_transient_animation_drawable_systemui_dora_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_dora_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_dora_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_dora_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_dora_wifi</item>
+</string-array>
+
+<string-array name="equal_signal">
+    <item>mapping_source_equal_signal</item>
+    <item>replacement_equal_signal</item>
+</string-array>
+
+<string-array name="mapping_source_equal_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_equal_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_equal_signal</item>
+    <item>stat_signal_noservice_lte_systemui_equal_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_equal_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_equal_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_equal_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_equal_signal</item>
+</string-array>
+
+<string-array name="round_wifi">
+    <item>mapping_source_round_wifi</item>
+    <item>replacement_round_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_round_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_round_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_round_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_round_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_round_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_round_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_round_wifi</item>
+</string-array>
+
+<string-array name="borderline_wifi">
+    <item>mapping_source_borderline_wifi</item>
+    <item>replacement_borderline_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_borderline_wifi">
+    <item>com.android.systemui:ic_signal_wifi_transient_animation</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_borderline_wifi">
+    <item>ic_signal_wifi_transient_animation_systemui_borderline_wifi</item>
+    <item>stat_signal_wifi_signal_4_systemui_borderline_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_borderline_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_borderline_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_borderline_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_borderline_wifi</item>
+</string-array>
+
+<string-array name="hos_signal">
+    <item>mapping_source_hos_signal</item>
+    <item>replacement_hos_signal</item>
+</string-array>
+
+<string-array name="mapping_source_hos_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_hos_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_hos_signal</item>
+    <item>stat_signal_noservice_lte_systemui_hos_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_hos_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_hos_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_hos_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_hos_signal</item>
+</string-array>
+
+<string-array name="plumpy_wifi">
+    <item>mapping_source_plumpy_wifi</item>
+    <item>replacement_plumpy_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_plumpy_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_plumpy_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_plumpy_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_plumpy_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_plumpy_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_plumpy_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_plumpy_wifi</item>
+</string-array>
+
+<string-array name="deep_signal">
+    <item>mapping_source_deep_signal</item>
+    <item>replacement_deep_signal</item>
+</string-array>
+
+<string-array name="mapping_source_deep_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_deep_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_deep_signal</item>
+    <item>stat_signal_noservice_lte_systemui_deep_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_deep_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_deep_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_deep_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_deep_signal</item>
+</string-array>
+
+<string-array name="weed_wifi">
+    <item>mapping_source_weed_wifi</item>
+    <item>replacement_weed_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_weed_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_weed_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_weed_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_weed_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_weed_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_weed_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_weed_wifi</item>
+</string-array>
+
+<string-array name="gradicon_wifi">
+    <item>mapping_source_gradicon_wifi</item>
+    <item>replacement_gradicon_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_gradicon_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_gradicon_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_gradicon_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_gradicon_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_gradicon_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_gradicon_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_gradicon_wifi</item>
+</string-array>
+
+<string-array name="stack_signal">
+    <item>mapping_source_stack_signal</item>
+    <item>replacement_stack_signal</item>
+</string-array>
+
+<string-array name="mapping_source_stack_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_stack_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_stack_signal</item>
+    <item>stat_signal_noservice_lte_systemui_stack_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_stack_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_stack_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_stack_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_stack_signal</item>
+</string-array>
+
+<string-array name="wavy_signal">
+    <item>mapping_source_wavy_signal</item>
+    <item>replacement_wavy_signal</item>
+</string-array>
+
+<string-array name="mapping_source_wavy_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_wavy_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_wavy_signal</item>
+    <item>stat_signal_noservice_lte_systemui_wavy_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_wavy_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_wavy_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_wavy_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_wavy_signal</item>
+</string-array>
+
+<string-array name="inside_wifi">
+    <item>mapping_source_inside_wifi</item>
+    <item>replacement_inside_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_inside_wifi">
+    <item>com.android.systemui:ic_signal_wifi_transient_animation</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:ic_signal_wifi_transient_animation_drawable</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_inside_wifi">
+    <item>ic_signal_wifi_transient_animation_systemui_inside_wifi</item>
+    <item>stat_signal_wifi_signal_4_systemui_inside_wifi</item>
+    <item>ic_signal_wifi_transient_animation_drawable_systemui_inside_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_inside_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_inside_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_inside_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_inside_wifi</item>
+</string-array>
+
+<string-array name="bars_wifi">
+    <item>mapping_source_bars_wifi</item>
+    <item>replacement_bars_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_bars_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_bars_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_bars_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_bars_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_bars_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_bars_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_bars_wifi</item>
+</string-array>
+
+<string-array name="wavy_wifi">
+    <item>mapping_source_wavy_wifi</item>
+    <item>replacement_wavy_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_wavy_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_wavy_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_wavy_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_wavy_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_wavy_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_wavy_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_wavy_wifi</item>
+</string-array>
+
+<string-array name="nothing_dot_v2_signal">
+    <item>mapping_source_nothing_dot_v2_signal</item>
+    <item>replacement_nothing_dot_v2_signal</item>
+</string-array>
+
+<string-array name="mapping_source_nothing_dot_v2_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_nothing_dot_v2_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_nothing_dot_v2_signal</item>
+    <item>stat_signal_noservice_lte_systemui_nothing_dot_v2_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_nothing_dot_v2_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_nothing_dot_v2_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_nothing_dot_v2_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_nothing_dot_v2_signal</item>
+</string-array>
+
+<string-array name="wannui_signal">
+    <item>mapping_source_wannui_signal</item>
+    <item>replacement_wannui_signal</item>
+</string-array>
+
+<string-array name="mapping_source_wannui_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_wannui_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_wannui_signal</item>
+    <item>stat_signal_noservice_lte_systemui_wannui_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_wannui_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_wannui_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_wannui_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_wannui_signal</item>
+</string-array>
+
+<string-array name="circle_signal">
+    <item>mapping_source_circle_signal</item>
+    <item>replacement_circle_signal</item>
+</string-array>
+
+<string-array name="mapping_source_circle_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_circle_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_circle_signal</item>
+    <item>stat_signal_noservice_lte_systemui_circle_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_circle_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_circle_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_circle_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_circle_signal</item>
+</string-array>
+
+<string-array name="dec_signal">
+    <item>mapping_source_dec_signal</item>
+    <item>replacement_dec_signal</item>
+</string-array>
+
+<string-array name="mapping_source_dec_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_dec_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_dec_signal</item>
+    <item>stat_signal_noservice_lte_systemui_dec_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_dec_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_dec_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_dec_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_dec_signal</item>
+</string-array>
+
+<string-array name="fan_signal">
+    <item>mapping_source_fan_signal</item>
+    <item>replacement_fan_signal</item>
+</string-array>
+
+<string-array name="mapping_source_fan_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_fan_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_fan_signal</item>
+    <item>stat_signal_noservice_lte_systemui_fan_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_fan_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_fan_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_fan_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_fan_signal</item>
+</string-array>
+
+<string-array name="aurora_wifi">
+    <item>mapping_source_aurora_wifi</item>
+    <item>replacement_aurora_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_aurora_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_aurora_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_aurora_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_aurora_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_aurora_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_aurora_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_aurora_wifi</item>
+</string-array>
+
+<string-array name="rel_signal">
+    <item>mapping_source_rel_signal</item>
+    <item>replacement_rel_signal</item>
+</string-array>
+
+<string-array name="mapping_source_rel_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_rel_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_rel_signal</item>
+    <item>stat_signal_noservice_lte_systemui_rel_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_rel_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_rel_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_rel_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_rel_signal</item>
+</string-array>
+
+<string-array name="ios_double_by_______">
+    <item>mapping_source_ios_double_by_______</item>
+    <item>replacement_ios_double_by_______</item>
+</string-array>
+
+<string-array name="mapping_source_ios_double_by_______">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_ios_double_by_______">
+    <item>stat_signal_signal_lte_single_0_systemui_ios_double_by_______</item>
+    <item>stat_signal_noservice_lte_systemui_ios_double_by_______</item>
+    <item>stat_signal_signal_lte_single_3_systemui_ios_double_by_______</item>
+    <item>stat_signal_signal_lte_single_4_systemui_ios_double_by_______</item>
+    <item>stat_signal_signal_lte_single_2_systemui_ios_double_by_______</item>
+    <item>stat_signal_signal_lte_single_1_systemui_ios_double_by_______</item>
+</string-array>
+
+<string-array name="zigzag_signal">
+    <item>mapping_source_zigzag_signal</item>
+    <item>replacement_zigzag_signal</item>
+</string-array>
+
+<string-array name="mapping_source_zigzag_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_zigzag_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_zigzag_signal</item>
+    <item>stat_signal_noservice_lte_systemui_zigzag_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_zigzag_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_zigzag_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_zigzag_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_zigzag_signal</item>
+</string-array>
+
+<string-array name="stroke_signal">
+    <item>mapping_source_stroke_signal</item>
+    <item>replacement_stroke_signal</item>
+</string-array>
+
+<string-array name="mapping_source_stroke_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_stroke_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_stroke_signal</item>
+    <item>stat_signal_noservice_lte_systemui_stroke_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_stroke_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_stroke_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_stroke_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_stroke_signal</item>
+</string-array>
+
+<string-array name="sneaky_signal">
+    <item>mapping_source_sneaky_signal</item>
+    <item>replacement_sneaky_signal</item>
+</string-array>
+
+<string-array name="mapping_source_sneaky_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_sneaky_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_sneaky_signal</item>
+    <item>stat_signal_noservice_lte_systemui_sneaky_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_sneaky_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_sneaky_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_sneaky_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_sneaky_signal</item>
+</string-array>
+
+<string-array name="windows_signal">
+    <item>mapping_source_windows_signal</item>
+    <item>replacement_windows_signal</item>
+</string-array>
+
+<string-array name="mapping_source_windows_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_windows_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_windows_signal</item>
+    <item>stat_signal_noservice_lte_systemui_windows_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_windows_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_windows_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_windows_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_windows_signal</item>
+</string-array>
+
+<string-array name="forlorn_signal">
+    <item>mapping_source_forlorn_signal</item>
+    <item>replacement_forlorn_signal</item>
+</string-array>
+
+<string-array name="mapping_source_forlorn_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_forlorn_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_forlorn_signal</item>
+    <item>stat_signal_noservice_lte_systemui_forlorn_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_forlorn_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_forlorn_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_forlorn_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_forlorn_signal</item>
+</string-array>
+
+<string-array name="mini_signal">
+    <item>mapping_source_mini_signal</item>
+    <item>replacement_mini_signal</item>
+</string-array>
+
+<string-array name="mapping_source_mini_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_mini_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_mini_signal</item>
+    <item>stat_signal_noservice_lte_systemui_mini_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_mini_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_mini_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_mini_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_mini_signal</item>
+</string-array>
+
+<string-array name="nothing_dot_signal">
+    <item>mapping_source_nothing_dot_signal</item>
+    <item>replacement_nothing_dot_signal</item>
+</string-array>
+
+<string-array name="mapping_source_nothing_dot_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_nothing_dot_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_nothing_dot_signal</item>
+    <item>stat_signal_noservice_lte_systemui_nothing_dot_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_nothing_dot_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_nothing_dot_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_nothing_dot_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_nothing_dot_signal</item>
+</string-array>
+
+<string-array name="pui_wifi">
+    <item>mapping_source_pui_wifi</item>
+    <item>replacement_pui_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_pui_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_pui_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_pui_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_pui_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_pui_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_pui_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_pui_wifi</item>
+</string-array>
+
+<string-array name="gradicon_signal">
+    <item>mapping_source_gradicon_signal</item>
+    <item>replacement_gradicon_signal</item>
+</string-array>
+
+<string-array name="mapping_source_gradicon_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_gradicon_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_gradicon_signal</item>
+    <item>stat_signal_noservice_lte_systemui_gradicon_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_gradicon_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_gradicon_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_gradicon_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_gradicon_signal</item>
+</string-array>
+
+<string-array name="roman_signal">
+    <item>mapping_source_roman_signal</item>
+    <item>replacement_roman_signal</item>
+</string-array>
+
+<string-array name="mapping_source_roman_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_roman_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_roman_signal</item>
+    <item>stat_signal_noservice_lte_systemui_roman_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_roman_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_roman_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_roman_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_roman_signal</item>
+</string-array>
+
+<string-array name="hos_wifi">
+    <item>mapping_source_hos_wifi</item>
+    <item>replacement_hos_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_hos_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_hos_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_hos_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_hos_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_hos_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_hos_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_hos_wifi</item>
+</string-array>
+
+<string-array name="ios_by_______">
+    <item>mapping_source_ios_by_______</item>
+    <item>replacement_ios_by_______</item>
+</string-array>
+
+<string-array name="mapping_source_ios_by_______">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_ios_by_______">
+    <item>stat_signal_signal_lte_single_0_systemui_ios_by_______</item>
+    <item>stat_signal_noservice_lte_systemui_ios_by_______</item>
+    <item>stat_signal_signal_lte_single_3_systemui_ios_by_______</item>
+    <item>stat_signal_signal_lte_single_4_systemui_ios_by_______</item>
+    <item>stat_signal_signal_lte_single_2_systemui_ios_by_______</item>
+    <item>stat_signal_signal_lte_single_1_systemui_ios_by_______</item>
+</string-array>
+
+<string-array name="inside_signal">
+    <item>mapping_source_inside_signal</item>
+    <item>replacement_inside_signal</item>
+</string-array>
+
+<string-array name="mapping_source_inside_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_inside_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_inside_signal</item>
+    <item>stat_signal_noservice_lte_systemui_inside_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_inside_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_inside_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_inside_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_inside_signal</item>
+</string-array>
+
+<string-array name="ios_signal">
+    <item>mapping_source_ios_signal</item>
+    <item>replacement_ios_signal</item>
+</string-array>
+
+<string-array name="mapping_source_ios_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_ios_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_ios_signal</item>
+    <item>stat_signal_noservice_lte_systemui_ios_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_ios_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_ios_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_ios_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_ios_signal</item>
+</string-array>
+
+<string-array name="aquarium_signal">
+    <item>mapping_source_aquarium_signal</item>
+    <item>replacement_aquarium_signal</item>
+</string-array>
+
+<string-array name="mapping_source_aquarium_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_aquarium_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_aquarium_signal</item>
+    <item>stat_signal_noservice_lte_systemui_aquarium_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_aquarium_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_aquarium_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_aquarium_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_aquarium_signal</item>
+</string-array>
+
+<string-array name="forlorn_wifi">
+    <item>mapping_source_forlorn_wifi</item>
+    <item>replacement_forlorn_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_forlorn_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_forlorn_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_forlorn_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_forlorn_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_forlorn_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_forlorn_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_forlorn_wifi</item>
+</string-array>
+
+<string-array name="xperia_signal">
+    <item>mapping_source_xperia_signal</item>
+    <item>replacement_xperia_signal</item>
+</string-array>
+
+<string-array name="mapping_source_xperia_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_xperia_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_xperia_signal</item>
+    <item>stat_signal_noservice_lte_systemui_xperia_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_xperia_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_xperia_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_xperia_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_xperia_signal</item>
+</string-array>
+
+<string-array name="sea_signal">
+    <item>mapping_source_sea_signal</item>
+    <item>replacement_sea_signal</item>
+</string-array>
+
+<string-array name="mapping_source_sea_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_sea_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_sea_signal</item>
+    <item>stat_signal_noservice_lte_systemui_sea_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_sea_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_sea_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_sea_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_sea_signal</item>
+</string-array>
+
+<string-array name="ios_10_signal">
+    <item>mapping_source_ios_10_signal</item>
+    <item>replacement_ios_10_signal</item>
+</string-array>
+
+<string-array name="mapping_source_ios_10_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_ios_10_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_ios_10_signal</item>
+    <item>stat_signal_noservice_lte_systemui_ios_10_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_ios_10_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_ios_10_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_ios_10_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_ios_10_signal</item>
+</string-array>
+
+<string-array name="faint_ui_signal">
+    <item>mapping_source_faint_ui_signal</item>
+    <item>replacement_faint_ui_signal</item>
+</string-array>
+
+<string-array name="mapping_source_faint_ui_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_faint_ui_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_faint_ui_signal</item>
+    <item>stat_signal_noservice_lte_systemui_faint_ui_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_faint_ui_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_faint_ui_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_faint_ui_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_faint_ui_signal</item>
+</string-array>
+
+<string-array name="sneaky_wifi">
+    <item>mapping_source_sneaky_wifi</item>
+    <item>replacement_sneaky_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_sneaky_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_sneaky_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_sneaky_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_sneaky_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_sneaky_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_sneaky_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_sneaky_wifi</item>
+</string-array>
+
+<string-array name="plumpy_signal">
+    <item>mapping_source_plumpy_signal</item>
+    <item>replacement_plumpy_signal</item>
+</string-array>
+
+<string-array name="mapping_source_plumpy_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_plumpy_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_plumpy_signal</item>
+    <item>stat_signal_noservice_lte_systemui_plumpy_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_plumpy_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_plumpy_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_plumpy_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_plumpy_signal</item>
+</string-array>
+
+<string-array name="faint_ui_wifi">
+    <item>mapping_source_faint_ui_wifi</item>
+    <item>replacement_faint_ui_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_faint_ui_wifi">
+    <item>com.android.systemui:ic_signal_wifi_transient_animation</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:ic_signal_wifi_transient_animation_drawable</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_faint_ui_wifi">
+    <item>ic_signal_wifi_transient_animation_systemui_faint_ui_wifi</item>
+    <item>stat_signal_wifi_signal_4_systemui_faint_ui_wifi</item>
+    <item>ic_signal_wifi_transient_animation_drawable_systemui_faint_ui_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_faint_ui_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_faint_ui_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_faint_ui_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_faint_ui_wifi</item>
+</string-array>
+
+<string-array name="nothing_dot_wifi">
+    <item>mapping_source_nothing_dot_wifi</item>
+    <item>replacement_nothing_dot_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_nothing_dot_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_nothing_dot_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_nothing_dot_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_nothing_dot_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_nothing_dot_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_nothing_dot_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_nothing_dot_wifi</item>
+</string-array>
+
+<string-array name="xperia_wifi">
+    <item>mapping_source_xperia_wifi</item>
+    <item>replacement_xperia_wifi</item>
+</string-array>
+
+<string-array name="mapping_source_xperia_wifi">
+    <item>com.android.systemui:stat_signal_wifi_signal_4</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_0</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_3</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_1</item>
+    <item>com.android.systemui:stat_signal_wifi_signal_2</item>
+</string-array>
+
+<string-array name="replacement_xperia_wifi">
+    <item>stat_signal_wifi_signal_4_systemui_xperia_wifi</item>
+    <item>stat_signal_wifi_signal_0_systemui_xperia_wifi</item>
+    <item>stat_signal_wifi_signal_3_systemui_xperia_wifi</item>
+    <item>stat_signal_wifi_signal_1_systemui_xperia_wifi</item>
+    <item>stat_signal_wifi_signal_2_systemui_xperia_wifi</item>
+</string-array>
+
+<string-array name="dora_signal">
+    <item>mapping_source_dora_signal</item>
+    <item>replacement_dora_signal</item>
+</string-array>
+
+<string-array name="mapping_source_dora_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_dora_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_dora_signal</item>
+    <item>stat_signal_noservice_lte_systemui_dora_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_dora_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_dora_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_dora_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_dora_signal</item>
+</string-array>
+
+<string-array name="huawei_signal">
+    <item>mapping_source_huawei_signal</item>
+    <item>replacement_huawei_signal</item>
+</string-array>
+
+<string-array name="mapping_source_huawei_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_huawei_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_huawei_signal</item>
+    <item>stat_signal_noservice_lte_systemui_huawei_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_huawei_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_huawei_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_huawei_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_huawei_signal</item>
+</string-array>
+
+<string-array name="aurora_signal">
+    <item>mapping_source_aurora_signal</item>
+    <item>replacement_aurora_signal</item>
+</string-array>
+
+<string-array name="mapping_source_aurora_signal">
+    <item>com.android.systemui:stat_signal_signal_lte_single_0</item>
+    <item>com.android.systemui:stat_signal_noservice_lte</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_3</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_4</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_2</item>
+    <item>com.android.systemui:stat_signal_signal_lte_single_1</item>
+</string-array>
+
+<string-array name="replacement_aurora_signal">
+    <item>stat_signal_signal_lte_single_0_systemui_aurora_signal</item>
+    <item>stat_signal_noservice_lte_systemui_aurora_signal</item>
+    <item>stat_signal_signal_lte_single_3_systemui_aurora_signal</item>
+    <item>stat_signal_signal_lte_single_4_systemui_aurora_signal</item>
+    <item>stat_signal_signal_lte_single_2_systemui_aurora_signal</item>
+    <item>stat_signal_signal_lte_single_1_systemui_aurora_signal</item>
+</string-array>
 </resources>
