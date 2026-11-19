@@ -15,6 +15,38 @@ manifest_file = './app/src/main/AndroidManifest.xml'
 
 VALID_DRAWABLE_EXTENSIONS = ['.xml', '.png', '.jpg', '.jpeg', '.webp']
 
+# ColorOS / OxygenOS 17 SystemUI loads "<name>_os17" drawables instead of the OS16 ones
+# (see OplusWifiIconSets.WIFI_SIGNAL_O17 and MobileIconSets.SIGNAL_OS16_TO_OS17).
+# Every pack icon named like a key below is also mapped onto its "_os17" variant,
+# so the same pack works on both OS16 and OS17.
+OS17_VARIANTS = {
+    'com.android.systemui': {
+        # WiFi signal
+        *[f'stat_signal_wifi_signal_{i}' for i in range(5)],
+        'stat_signal_wifi_double',
+        'stat_signal_activity_wifi_in',
+        'stat_signal_activity_wifi_inout',
+        'stat_signal_activity_wifi_none',
+        'stat_signal_activity_wifi_out',
+        # Mobile signal
+        *[f'stat_signal_signal_lte_single_{i}' for i in range(5)],
+        'stat_signal_single_novoice_0',
+        *[f'stat_signal_signal_novoice_{i}' for i in range(1, 5)],
+        *[f'stat_signal_soft_signal_{i}' for i in range(5)],
+        'stat_signal_noservice_lte',
+        'stat_signal_soft_noservice',
+        # Mobile data activity
+        'stat_signal_activity_default_public',
+        'stat_signal_activity_in_public',
+        'stat_signal_activity_out_public',
+        'stat_signal_activity_inout_public',
+        'stat_signal_activity_soft_default_public',
+        'stat_signal_activity_soft_in_public',
+        'stat_signal_activity_soft_out_public',
+        'stat_signal_activity_soft_inout_public',
+    },
+}
+
 
 def normalize_package_name(package_name):
     """Normalize specific package names."""
@@ -193,36 +225,38 @@ def update_arrays():
 </string-array>
 """
 
-            array_updates += f"""
-<string-array name="mapping_source_{pack_name_lower}">
-"""
+            # Build (source, replacement) pairs once so both arrays always have the same size
+            mappings = []
             pack_path = os.path.join(iconpacks_dir, pack_name)
             for package_name in os.listdir(pack_path):
                 package_path = os.path.join(pack_path, package_name)
 
                 if os.path.isdir(package_path):
-                    for file in os.listdir(package_path):
-                        file_extension = os.path.splitext(file)[1].lower()
+                    normalized_package = normalize_package_name(package_name)
 
-                        if file_extension in VALID_DRAWABLE_EXTENSIONS:
-                            array_updates += f"    <item>{package_name}:{os.path.splitext(file)[0]}</item>\n"
+                    for file in os.listdir(package_path):
+                        file_name, file_extension = os.path.splitext(file)
+
+                        if file_extension.lower() in VALID_DRAWABLE_EXTENSIONS:
+                            new_name = f"{file_name}_{normalized_package.lower()}_{pack_name_lower}"
+                            mappings.append((f"{package_name}:{file_name}", new_name))
+
+                            # ColorOS / OxygenOS 17 uses separate "_os17" resources for these icons
+                            if file_name in OS17_VARIANTS.get(package_name, set()):
+                                mappings.append((f"{package_name}:{file_name}_os17", new_name))
+
+            array_updates += f"""
+<string-array name="mapping_source_{pack_name_lower}">
+"""
+            for source, _ in mappings:
+                array_updates += f"    <item>{source}</item>\n"
             array_updates += f"</string-array>\n"
 
             array_updates += f"""
 <string-array name="replacement_{pack_name_lower}">
 """
-            for package_name in os.listdir(pack_path):
-                package_path = os.path.join(pack_path, package_name)
-
-                if os.path.isdir(package_path):
-                    package_name = normalize_package_name(package_name)
-
-                    for file in os.listdir(package_path):
-                        file_extension = os.path.splitext(file)[1].lower()
-
-                        if file_extension in VALID_DRAWABLE_EXTENSIONS:
-                            new_name = f"{os.path.splitext(file)[0]}_{package_name.lower()}_{pack_name_lower}"
-                            array_updates += f"    <item>{new_name}</item>\n"
+            for _, replacement in mappings:
+                array_updates += f"    <item>{replacement}</item>\n"
             array_updates += f"</string-array>\n"
 
         new_arrays_content = arrays_content[:start_resources + len('<resources>')] + array_updates + arrays_content[end_resources:]
